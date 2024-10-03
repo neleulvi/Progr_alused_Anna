@@ -10,7 +10,7 @@ rl.question ("Sisestage kirja suurus", kirjasuurus =>{
 
   
 
-      if (! pealkiri || kirjasuurus < 1 && fail === "jah"){
+      if (! pealkiri || (kirjasuurus > 1 && fail === "jah")){
         console.log("Kiri on spämm")
       }
       else{
